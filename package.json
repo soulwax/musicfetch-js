@@ -1,0 +1,66 @@
+{
+  "name": "musicfetch-js",
+  "version": "1.0.0",
+  "description": "fetches cover art, downloads them according to the contents of the src/assets/audios folder into src/assets/images and then updates a specific js file with the retrieved info: audio file path, image file path, song name and song length in seconds",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulwax/musicfetch.js.git"
+  },
+  "keywords": [
+    "music",
+    "api",
+    "fetch",
+    "json",
+    "cover",
+    "art"
+  ],
+  "author": "soulwax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulwax/musicfetch.js/issues"
+  },
+  "homepage": "https://github.com/soulwax/musicfetch.js#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "prettier": {
+    "ignore": [
+      "node_modules"
+    ],
+    "singleQuote": true,
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "proseWrapColumn": 120,
+    "htmlWhitespaceSensitivity": "css",
+    "endOfLine": "lf",
+    "insertPragma": false,
+    "requirePragma": false,
+    "proseWrapSeparator": "|",
+    "vueIndentScriptAndStyle": false,
+    "vueIndentHTML": false,
+    "vueSplitHTML": false,
+    "vueSplitHTMLPrettier": false,
+    "vuePreserveWhitespace": false,
+    "vueAllowMultipleElements": false,
+    "vueAllowShorthandMethods": false,
+    "vueAllowShorthandComponents": false,
+    "vueAllowCustomBlocks": false,
+    "vueAllowKeywordsInProps": false,
+    "vueAllowKeywordsInCallExpression": false,
+    "vueAllowKeywordsInJSX": false,
+    "vueAllowDotlessComponent": false,
+    "vueAllowSingleLine": false,
+    "vueAllowAttributeShorthand": false
+  }
+}
